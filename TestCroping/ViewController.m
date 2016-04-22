@@ -53,7 +53,7 @@
 }
 
 - (IBAction)tapIMG2:(id)sender  {
-    NSLog(@"img222 tapped");
+    NSLog(@"img222 tapped，yes taped");
 }
 
 
