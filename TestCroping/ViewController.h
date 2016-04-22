@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "GPUImage.h"
+
 @class JBCroppableImageView;
 @interface ViewController : UIViewController
 
@@ -19,5 +21,10 @@
 - (IBAction)undoTapped:(id)sender;
 - (IBAction)subtractTapped:(id)sender;
 - (IBAction)addTapped:(id)sender;
+
+- (IBAction)tapIMG0:(id)sender;
+- (IBAction)tapIMG1:(id)sender;
+- (IBAction)tapIMG2:(id)sender;
+
 
 @end

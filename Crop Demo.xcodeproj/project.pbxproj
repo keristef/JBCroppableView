@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1612FAC61CC91F0A0004698A /* th0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1612FAC31CC91F0A0004698A /* th0.jpeg */; };
+		1612FAC71CC91F0A0004698A /* th1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1612FAC41CC91F0A0004698A /* th1.jpeg */; };
+		1612FAC81CC91F0A0004698A /* th2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1612FAC51CC91F0A0004698A /* th2.jpeg */; };
+		2BC106465A3F6EC92D60DF29 /* libPods-Crop Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDDAC9D82B9FC2FB00B3817 /* libPods-Crop Demo.a */; };
+		39686FFA7802BA5B7A9DCD69 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D0F0F64849C77C1AD23B5E /* libPods.a */; };
 		423E21CB168372E1001CB06C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423E21CA168372E1001CB06C /* UIKit.framework */; };
 		423E21CD168372E1001CB06C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423E21CC168372E1001CB06C /* Foundation.framework */; };
 		423E21CF168372E1001CB06C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423E21CE168372E1001CB06C /* CoreGraphics.framework */; };
@@ -25,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1612FAC31CC91F0A0004698A /* th0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = th0.jpeg; sourceTree = "<group>"; };
+		1612FAC41CC91F0A0004698A /* th1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = th1.jpeg; sourceTree = "<group>"; };
+		1612FAC51CC91F0A0004698A /* th2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = th2.jpeg; sourceTree = "<group>"; };
+		1CDDAC9D82B9FC2FB00B3817 /* libPods-Crop Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Crop Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		423E21C6168372E1001CB06C /* Crop Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crop Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		423E21CA168372E1001CB06C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		423E21CC168372E1001CB06C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,9 +53,14 @@
 		423E21ED16837CA9001CB06C /* JBCroppableLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCroppableLayer.h; sourceTree = "<group>"; };
 		423E21EE16837CA9001CB06C /* JBCroppableLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCroppableLayer.m; sourceTree = "<group>"; };
 		423E21F516847271001CB06C /* IMG_0152.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0152.JPG; sourceTree = "<group>"; };
+		46F1FDF2A6B28EBC6ED18B7C /* Pods-Crop Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crop Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crop Demo/Pods-Crop Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		5FCB97A5184F1CCA0091667B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5FCB97A7184F20C90091667B /* JBCroppableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCroppableImageView.h; sourceTree = "<group>"; };
 		5FCB97A8184F20C90091667B /* JBCroppableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCroppableImageView.m; sourceTree = "<group>"; };
+		67BAA1F3E8E5D7271DE9ECF6 /* Pods-Crop Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crop Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crop Demo/Pods-Crop Demo.release.xcconfig"; sourceTree = "<group>"; };
+		83816D5F11DFCAF52F0DB144 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		86D0F0F64849C77C1AD23B5E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED75CA2E2A61873CF77665D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,8 @@
 				423E21CB168372E1001CB06C /* UIKit.framework in Frameworks */,
 				423E21CD168372E1001CB06C /* Foundation.framework in Frameworks */,
 				423E21CF168372E1001CB06C /* CoreGraphics.framework in Frameworks */,
+				39686FFA7802BA5B7A9DCD69 /* libPods.a in Frameworks */,
+				2BC106465A3F6EC92D60DF29 /* libPods-Crop Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 				423E21D0168372E1001CB06C /* TestCroping */,
 				423E21C9168372E1001CB06C /* Frameworks */,
 				423E21C7168372E1001CB06C /* Products */,
+				D912C138045E4A1627E53059 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +107,8 @@
 				423E21CA168372E1001CB06C /* UIKit.framework */,
 				423E21CC168372E1001CB06C /* Foundation.framework */,
 				423E21CE168372E1001CB06C /* CoreGraphics.framework */,
+				86D0F0F64849C77C1AD23B5E /* libPods.a */,
+				1CDDAC9D82B9FC2FB00B3817 /* libPods-Crop Demo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,6 +116,9 @@
 		423E21D0168372E1001CB06C /* TestCroping */ = {
 			isa = PBXGroup;
 			children = (
+				1612FAC31CC91F0A0004698A /* th0.jpeg */,
+				1612FAC41CC91F0A0004698A /* th1.jpeg */,
+				1612FAC51CC91F0A0004698A /* th2.jpeg */,
 				423E21D9168372E1001CB06C /* AppDelegate.h */,
 				423E21DA168372E1001CB06C /* AppDelegate.m */,
 				423E21E2168372E1001CB06C /* ViewController.h */,
@@ -133,6 +155,17 @@
 			path = ../JBCroppableView;
 			sourceTree = "<group>";
 		};
+		D912C138045E4A1627E53059 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83816D5F11DFCAF52F0DB144 /* Pods.debug.xcconfig */,
+				AED75CA2E2A61873CF77665D /* Pods.release.xcconfig */,
+				46F1FDF2A6B28EBC6ED18B7C /* Pods-Crop Demo.debug.xcconfig */,
+				67BAA1F3E8E5D7271DE9ECF6 /* Pods-Crop Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 423E21EA168372E1001CB06C /* Build configuration list for PBXNativeTarget "Crop Demo" */;
 			buildPhases = (
+				F020633D8123CE983F71AE06 /* Check Pods Manifest.lock */,
 				423E21C2168372E1001CB06C /* Sources */,
 				423E21C3168372E1001CB06C /* Frameworks */,
 				423E21C4168372E1001CB06C /* Resources */,
+				7FB691FBCFBC39E55F5184E6 /* Embed Pods Frameworks */,
+				D278587AE00EBB768171B584 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,15 +226,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				423E21D5168372E1001CB06C /* InfoPlist.strings in Resources */,
+				1612FAC71CC91F0A0004698A /* th1.jpeg in Resources */,
 				423E21DD168372E1001CB06C /* Default.png in Resources */,
 				423E21DF168372E1001CB06C /* Default@2x.png in Resources */,
 				423E21E1168372E1001CB06C /* Default-568h@2x.png in Resources */,
 				423E21E7168372E1001CB06C /* ViewController.xib in Resources */,
+				1612FAC61CC91F0A0004698A /* th0.jpeg in Resources */,
 				423E21F616847271001CB06C /* IMG_0152.JPG in Resources */,
+				1612FAC81CC91F0A0004698A /* th2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FB691FBCFBC39E55F5184E6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crop Demo/Pods-Crop Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D278587AE00EBB768171B584 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crop Demo/Pods-Crop Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F020633D8123CE983F71AE06 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		423E21C2168372E1001CB06C /* Sources */ = {
@@ -286,12 +373,14 @@
 		};
 		423E21EB168372E1001CB06C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F1FDF2A6B28EBC6ED18B7C /* Pods-Crop Demo.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestCroping/Crop Demo-Prefix.pch";
 				INFOPLIST_FILE = "TestCroping/Crop Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "Crop Demo";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -300,12 +389,14 @@
 		};
 		423E21EC168372E1001CB06C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BAA1F3E8E5D7271DE9ECF6 /* Pods-Crop Demo.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestCroping/Crop Demo-Prefix.pch";
 				INFOPLIST_FILE = "TestCroping/Crop Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "Crop Demo";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BCCE93CC-4AB8-44FA-BCA0-A3DC4BF66DAA";

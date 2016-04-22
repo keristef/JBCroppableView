@@ -43,4 +43,18 @@
     [self.image addPoint];
 }
 
+
+- (IBAction)tapIMG0:(id)sender  {
+    NSLog(@"img000 tapped");
+}
+
+- (IBAction)tapIMG1:(id)sender  {
+    NSLog(@"img111 tapped");
+}
+
+- (IBAction)tapIMG2:(id)sender  {
+    NSLog(@"img222 tapped");
+}
+
+
 @end
